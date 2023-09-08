@@ -31,7 +31,7 @@ pipeline {
             post {
                 success {
                     script {
-                        sleep(60)  // Menjeda eksekusi pipeline selama 1 menit
+                        sleep(480)  // Menjeda eksekusi pipeline selama 1 menit
                     }
                 }
             }
